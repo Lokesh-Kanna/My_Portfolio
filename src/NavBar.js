@@ -25,10 +25,10 @@ export function NavBar() {
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <Link class="nav-link active" to="">
+            <Link class="nav-link" to="/">
               <span className="Nav-S-no">01. </span>Home
             </Link>
-            <Link class="nav-link" to="">
+            <Link class="nav-link" to="/about">
               <span className="Nav-S-no">02. </span>About
             </Link>
             <Link class="nav-link" to="">
