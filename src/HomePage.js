@@ -9,7 +9,7 @@ export function HomePage() {
       <div className="home-main-div">
         <div className="home-left">
           <div className="home-div">
-            <Typography className="hi">Hi, my name is,</Typography>
+            <Typography className="hi">Hi, my name is</Typography>
             <Typography className="my-nme">Lokesh Kanna.</Typography>
             <div className="whoAmI">
               <Typography className="home-para">I am a</Typography>
