@@ -20,8 +20,25 @@ code {
   color: white !important;
 }
 
+.brand {
+  display: flex;
+}
+
 .navbar-brand {
   color: white !important;
+}
+
+.brnd-nme {
+  position: absolute;
+  top: 0.7rem;
+  left: 2rem;
+  font-size: 1.5rem !important;
+  font-weight: bold;
+}
+
+.brkt-img {
+  height: 2rem;
+  margin: 0 7.8rem 0 0;
 }
 
 .nav-link {
@@ -34,3 +51,13 @@ code {
 }
 
 /* NavBar CSS ends */
+
+/* --------------------------------------------------------------- */
+
+/* Home Page CSS Starts */
+
+.hi {
+  color: #32ffd3;
+}
+
+/* Home Page CSS ends */
