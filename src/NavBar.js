@@ -5,13 +5,13 @@ export function NavBar() {
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand">
+        <Link class="navbar-brand" to="/">
           <div className="brand">
             <img className="brkt-img" src="bl.png" />
             <Typography className="brnd-nme">Lokesh Kanna</Typography>
             <img className="brkt-img" src="br.png" />
           </div>
-        </a>
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -26,23 +26,23 @@ export function NavBar() {
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <Link class="nav-link active" to="">
-              Home <span class="sr-only">(current)</span>
+              <span className="Nav-S-no">01. </span>Home
             </Link>
             <Link class="nav-link" to="">
-              About
+              <span className="Nav-S-no">02. </span>About
             </Link>
             <Link class="nav-link" to="">
-              Skills
+              <span className="Nav-S-no">03. </span>Skills
             </Link>
             <Link class="nav-link" to="">
-              Projects
+              <span className="Nav-S-no">04. </span>Projects
             </Link>
             <Link class="nav-link" to="">
-              Experience
+              <span className="Nav-S-no">05. </span>Experience
             </Link>
-            <Link class="nav-link" to="">
-              Achievements
-            </Link>
+            {/* <Link class="nav-link" to="">
+              <span className="Nav-S-no">06.</span>Achievements
+            </Link> */}
           </div>
         </div>
       </nav>

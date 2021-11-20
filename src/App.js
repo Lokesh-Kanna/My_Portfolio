@@ -17,7 +17,10 @@ function HomePage() {
   return (
     <div>
       <NavBar />
-      <Typography className="hi">Hi, my name is,</Typography>
+      <div className="home-div">
+        <Typography className="hi">Hi, my name is,</Typography>
+        <Typography className="my-nme">Lokehs Kanna</Typography>
+      </div>
     </div>
   );
 }

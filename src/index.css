@@ -20,6 +20,14 @@ code {
   color: white !important;
 }
 
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-nav {
+  gap: 1rem !important;
+}
+
 .brand {
   display: flex;
 }
@@ -42,12 +50,15 @@ code {
 }
 
 .nav-link {
-  color: white !important;
-  font-size: 1.1rem;
+  color: #ccd6f6 !important;
+  font-size: 1rem;
+  font-family: "Roboto Mono", "monospace";
 }
 
-.navbar-collapse {
-  justify-content: flex-end;
+.Nav-S-no {
+  font-family: "Roboto Mono", "monospace";
+  font-size: 0.9rem;
+  color: #3affe8;
 }
 
 /* NavBar CSS ends */
@@ -57,7 +68,20 @@ code {
 /* Home Page CSS Starts */
 
 .hi {
-  color: #32ffd3;
+  color: #3affe8;
+}
+
+.my-nme {
+  color: #ccd6f6;
+}
+
+.home-div {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 10rem;
 }
 
 /* Home Page CSS ends */
