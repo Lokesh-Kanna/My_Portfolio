@@ -165,3 +165,146 @@ code {
 }
 
 /* Home Page CSS ends */
+
+/* ------------------------------------------------------------------ */
+
+/* Experience page starts */
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 40px 0;
+}
+
+.timeline-container::after {
+  background-color: rgb(201, 200, 200);
+  content: "";
+  position: absolute;
+  left: calc(50% - 1px);
+  width: 2px;
+  height: 100%;
+}
+
+.timeline-item {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+  margin: 10px 0;
+  width: 50%;
+}
+
+.timeline-item:nth-child(odd) {
+  align-self: flex-end;
+  justify-content: flex-start;
+  padding-left: 30px;
+}
+
+.timeline-item-content {
+  max-width: 70%;
+  color: #78829e;
+  background-color: rgb(21, 31, 58);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: flex-end;
+  padding: 15px;
+  max-width: 70%;
+  width: 400px;
+  text-align: right;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.timeline-item:nth-child(odd) .timeline-item-content {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.timeline-item-content::after {
+  content: "";
+  background-color: rgb(21, 31, 58);
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  transform: rotate(45deg);
+  right: -7.5px;
+  top: calc(50% - 7.5px);
+}
+
+.timeline-item:nth-child(odd) .timeline-item-content::after {
+  right: auto;
+  left: -7.5px;
+}
+
+.timeline-item-content .tag {
+  background-color: rgb(67, 84, 133);
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  padding: 3px 5px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.timeline-item:nth-child(odd) .timeline-item-content .tag {
+  left: auto;
+  right: 5px;
+}
+
+.timeline-item-content .time {
+  font-size: 13px;
+}
+
+.timeline-item-content h5 {
+  color: #3affe8;
+  margin: 15px 0 0 0;
+}
+
+.timeline-item-content p {
+  font-size: 15px;
+  line-height: 24px;
+  margin: 10px 0;
+}
+
+.timeline-item-content .circle {
+  background-color: rgb(201, 200, 200);
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 10px);
+  right: -37.5px;
+  width: 1rem;
+  height: 1rem;
+  z-index: 100;
+  border: 3px solid red;
+}
+
+.timeline-item-content:hover .circle {
+  background-color: #3affe8;
+  border: 1.5px solid red;
+}
+
+.timeline-item:nth-child(odd) .timeline-item-content .circle {
+  right: auto;
+  left: -37.5px;
+}
+
+@media only screen and (max-width: 767px) {
+  .timeline-item-content,
+  .timeline-item:nth-child(odd) .timeline-item-content {
+    padding: 15px 10px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .timeline-item-content .tag {
+    width: calc(100% - 10px);
+  }
+
+  .timeline-item-content .time {
+    margin-top: 25px;
+  }
+}
+
+/* Experience page ends */
