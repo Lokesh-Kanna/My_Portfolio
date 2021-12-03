@@ -52,7 +52,7 @@ code {
 
 .nav-link {
   color: #ccd6f6 !important;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-family: "Roboto Mono", "monospace";
 }
 
@@ -62,7 +62,7 @@ code {
 
 .Nav-S-no {
   font-family: "Roboto Mono", "monospace";
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: #3affe8;
 }
 
@@ -77,13 +77,36 @@ code {
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 5rem;
+  /* height: 88vh; */
+}
+
+.home-contacts-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.home-contacts {
+  color: #3affe8 !important;
+}
+
+.home-contacts-img {
+  fill: white !important;
+}
+
+.Vrline {
+  height: 100%;
+  width: 0.1rem;
+  background-color: #d1d1d1;
 }
 
 .hi {
   font-family: "Roboto Mono", "monospace" !important;
   /* color: #3affe8; */
   color: #ccd6f6;
-  font-size: 2rem !important;
+  font-size: 1.7rem !important;
 }
 
 .home-div {
@@ -96,7 +119,7 @@ code {
 
 .my-nme {
   font-family: "Ubuntu", "sans-serif" !important;
-  font-size: 5rem !important;
+  font-size: 4.7rem !important;
   color: #ccd6f6;
 }
 
@@ -120,7 +143,7 @@ code {
 
 .home-about {
   font-family: verdana, arial, helvetica;
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   text-align: left;
   max-width: 40vw;
   margin-top: 2rem !important;
@@ -138,7 +161,7 @@ code {
 }
 
 .home-img {
-  width: 30rem;
+  width: 33rem;
 }
 
 /* Home Page CSS ends */

@@ -1,12 +1,29 @@
 import { NavBar } from "./NavBar";
 import Typography from "@mui/material/Typography";
 import Typewriter from "typewriter-effect";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 export function HomePage() {
   return (
     <div>
       <NavBar />
       <div className="home-main-div">
+        <div className="home-contacts-div">
+          <div className="Vrline"></div>
+          <a className="home-contacts" href="https://github.com/Lokesh-Kanna">
+            <img src="https://img.icons8.com/fluency/48/000000/github.png" />
+          </a>
+          <a className="home-contacts" href="https://twitter.com/Lokesh_Kanna_">
+            <img src="https://img.icons8.com/fluency/38/000000/twitter.png" />
+          </a>
+          <a className="home-contacts" href="#">
+            <img src="https://img.icons8.com/fluency/38/000000/instagram-new.png" />
+          </a>
+          <a className="home-contacts" href="#">
+            <img src="https://img.icons8.com/fluency/38/000000/mail.png" />
+          </a>
+          <div className="Vrline"></div>
+        </div>
         <div className="home-left">
           <div className="home-div">
             <Typography className="hi">Hi, my name is</Typography>
