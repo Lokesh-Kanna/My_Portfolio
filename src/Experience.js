@@ -1,5 +1,5 @@
 import { NavBar } from "./NavBar";
-import { timeline_data } from "./experience_data.js";
+import { timeline_data } from "./data.js";
 
 export function ExpDistributer() {
   return (

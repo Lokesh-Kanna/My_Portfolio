@@ -31,7 +31,7 @@ export function NavBar() {
             <Link class="nav-link" to="/about">
               <span className="Nav-S-no">02. </span>About
             </Link>
-            <Link class="nav-link" to="">
+            <Link class="nav-link" to="/skills">
               <span className="Nav-S-no">03. </span>Skills
             </Link>
             <Link class="nav-link" to="">

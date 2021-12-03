@@ -316,20 +316,45 @@ code {
   width: 5px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: #0a192f;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #3affe8;
   border-radius: 50px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
 
 /* Scrollbar design end */
+
+/* Skills page starts */
+
+.skillsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skilldiv-right {
+  width: 50%;
+}
+
+.techstack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+
+.stack_icon {
+  color: white;
+}
+
+.skillHeading {
+  color: white;
+}
+
+/* Skills page ends */

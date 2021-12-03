@@ -55,4 +55,51 @@ const timeline_data = [
   },
 ];
 
-export { timeline_data };
+const tech_stack = [
+  {
+    name: "HTML5",
+    icon: "https://img.icons8.com/color/96/000000/html-5--v1.png",
+  },
+  {
+    name: "CSS 3",
+    icon: "https://img.icons8.com/color/96/000000/css3.png",
+  },
+  {
+    name: "JavaScript",
+    icon: "https://img.icons8.com/color/96/000000/javascript.png",
+  },
+  {
+    name: "Bootstrap",
+    icon: "https://img.icons8.com/color/96/000000/bootstrap.png",
+  },
+  {
+    name: "React",
+    icon: "https://img.icons8.com/color/96/000000/react-native.png",
+  },
+  {
+    name: "Node.js",
+    icon: "https://img.icons8.com/color/96/000000/nodejs.png",
+  },
+  {
+    name: "MongoDB",
+    icon: "https://img.icons8.com/color/96/000000/mongodb.png",
+  },
+  {
+    name: "MySQL",
+    icon: "https://img.icons8.com/fluency/96/000000/mysql-logo.png",
+  },
+  {
+    name: "MariaDB",
+    icon: "https://img.icons8.com/fluency/96/000000/maria-db.png",
+  },
+  {
+    name: "GitHub",
+    icon: "https://img.icons8.com/fluency/96/000000/github.png",
+  },
+  {
+    name: "Git",
+    icon: "https://img.icons8.com/color/96/000000/git.png",
+  },
+];
+
+export { timeline_data, tech_stack };
