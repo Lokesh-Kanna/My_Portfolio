@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #0a192f;
+  height: 100vh;
 }
 
 code {
@@ -168,8 +169,41 @@ code {
 
 /* ------------------------------------------------------------------ */
 
+/* About Page CSS starts */
+
+.aboutMainDiv {
+  display: flex;
+  justify-content: space-around;
+  height: 80vh;
+  align-items: center;
+}
+
+.aboutImg {
+  object-fit: contain;
+  height: 450px;
+  width: auto;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.aboutTxtDiv {
+  color: rgb(201, 200, 200);
+  max-width: 700px;
+  text-align: left;
+  font-family: monospace;
+}
+
+.aboutP {
+  font-size: 1.2rem;
+}
+
+/* /* About Page CSS ends */
+
+/* ------------------------------------------------------------------ */
+
 /* Experience page starts */
 .timeline-container {
+  background-color: #0a192f;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -306,6 +340,18 @@ code {
   .timeline-item-content .time {
     margin-top: 25px;
   }
+}
+
+.skillsection {
+  margin-top: 2rem;
+}
+
+.skillHeading {
+  text-decoration: underline;
+}
+
+.techstack {
+  margin-top: 2rem;
 }
 
 /* Experience page ends */

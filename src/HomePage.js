@@ -11,16 +11,16 @@ export function HomePage() {
         <div className="home-contacts-div">
           <div className="Vrline"></div>
           <a className="home-contacts" href="https://github.com/Lokesh-Kanna">
-            <img src="https://img.icons8.com/fluency/48/000000/github.png" />
+            <img src="https://img.icons8.com/fluency/38/000000/github.png" />
           </a>
           <a className="home-contacts" href="https://twitter.com/Lokesh_Kanna_">
-            <img src="https://img.icons8.com/fluency/38/000000/twitter.png" />
+            <img src="https://img.icons8.com/fluency/28/000000/twitter.png" />
           </a>
           <a className="home-contacts" href="#">
-            <img src="https://img.icons8.com/fluency/38/000000/instagram-new.png" />
+            <img src="https://img.icons8.com/fluency/28/000000/instagram-new.png" />
           </a>
           <a className="home-contacts" href="#">
-            <img src="https://img.icons8.com/fluency/38/000000/mail.png" />
+            <img src="https://img.icons8.com/fluency/28/000000/mail.png" />
           </a>
           <div className="Vrline"></div>
         </div>
@@ -52,12 +52,6 @@ export function HomePage() {
                 fullstack developer. I am currently focused on expanding my
                 knowledge in fullstack developement.{" "}
                 <span className="hme-abt-brkt">]</span>
-                {/* An efficient developer with skills in both frontend and backend
-            technologies. Committed in implementing continuous improvement
-            in professional as well as personal level. I am particularly
-            drawn towards interesting and challenging opportunities in the
-            field of supply chain, one which would make the best use of my
-            skills and further develop it through professional experience. */}
               </p>
             </div>
           </div>

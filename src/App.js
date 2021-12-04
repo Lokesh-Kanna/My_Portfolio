@@ -4,14 +4,17 @@ import { HomePage } from "./HomePage";
 import { ExpDistributer } from "./Experience";
 import { tech_stack } from "./data.js";
 import { NavBar } from "./NavBar";
+import { AboutPage } from "./AboutPage";
 
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/about-me" element={<AboutPage />} />
         <Route path="/experience" element={<ExpDistributer />} />
         <Route path="/skills" element={<SkillsPage />} />
+        <Route path="/my-projects" element={<ProjectsPage />} />
       </Routes>
     </div>
   );
@@ -43,6 +46,14 @@ function TechStack({ name, icon }) {
     <div className="stack_icon">
       <img src={icon} />
       <p>{name}</p>
+    </div>
+  );
+}
+
+function ProjectsPage() {
+  return (
+    <div>
+      <NavBar />
     </div>
   );
 }
