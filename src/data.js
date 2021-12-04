@@ -102,35 +102,14 @@ const tech_stack = [
   },
 ];
 
-const chartData = {
-  labels: [
-    "Project Management",
-    "Communication",
-    "Team Work",
-    "Leadership",
-    "Coding",
-    "Marketing",
-    "Problem-Solving",
-  ],
-  datasets: [
-    {
-      label: "Skill Distribution",
-      data: [65, 59, 90, 81, 56, 55, 40],
-      fill: true,
-      backgroundColor: "rgba(255, 99, 132, 0.2)",
-      borderColor: "rgb(255, 99, 132)",
-      pointBackgroundColor: "rgb(255, 99, 132)",
-      pointBorderColor: "#fff",
-      pointHoverBackgroundColor: "#fff",
-      pointHoverBorderColor: "rgb(255, 99, 132)",
-    },
-  ],
-};
+const chartData = [
+  { name: "Project Management", x: 75 },
+  { name: "Communication", x: 75 },
+  { name: "Team Work", x: 80 },
+  { name: "Leadership", x: 65 },
+  { name: "Coding", x: 85 },
+  { name: "Marketing", x: 65 },
+  { name: "Problem-Solving", x: 75 },
+];
 
-const chartOptions = {
-  scale: {
-    ticks: { beginAtZero: true },
-  },
-};
-
-export { timeline_data, tech_stack, chartData, chartOptions };
+export { timeline_data, tech_stack, chartData };

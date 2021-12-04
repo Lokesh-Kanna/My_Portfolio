@@ -5,6 +5,14 @@ import { ExpDistributer } from "./Experience";
 import { tech_stack } from "./data.js";
 import { NavBar } from "./NavBar";
 import { AboutPage } from "./AboutPage";
+import { chartData } from "./data";
+import {
+  Radar,
+  RadarChart,
+  PolarGrid,
+  PolarAngleAxis,
+  PolarRadiusAxis,
+} from "recharts";
 
 function App() {
   return (
@@ -35,6 +43,24 @@ function SkillsPage() {
         </div>
         <div className="skilldiv-left">
           <h3 className="skillHeading">My Skill Spread</h3>
+          <div className="chartDiv">
+            <RadarChart
+              height={500}
+              width={600}
+              outerRadius="80%"
+              data={chartData}
+            >
+              <PolarGrid />
+              <PolarAngleAxis dataKey="name" stroke="#94a0c0" />
+              <PolarRadiusAxis />
+              <Radar
+                dataKey="x"
+                stroke="green"
+                fill="green"
+                fillOpacity={0.5}
+              />
+            </RadarChart>
+          </div>
         </div>
       </div>
     </div>

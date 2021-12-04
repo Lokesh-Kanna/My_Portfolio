@@ -187,19 +187,58 @@ code {
 }
 
 .aboutTxtDiv {
-  color: rgb(201, 200, 200);
   max-width: 700px;
   text-align: left;
   font-family: monospace;
 }
 
+.aboutTxt {
+  color: #ccd6f6;
+  font-weight: bold;
+}
+
 .aboutP {
   font-size: 1.2rem;
+  color: #94a0c0;
 }
 
 /* /* About Page CSS ends */
 
 /* ------------------------------------------------------------------ */
+
+/* Skills page starts */
+
+.skillsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skilldiv-right {
+  width: 50%;
+}
+
+.techstack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+
+.stack_icon {
+  color: #94a0c0;
+}
+
+.skillHeading {
+  color: #ccd6f6;
+}
+
+.chartDiv {
+  color: #ccd6f6;
+}
+
+/* Skills page ends */
+
+/* ------------------------------------------------------------------------ */
 
 /* Experience page starts */
 .timeline-container {
@@ -376,31 +415,3 @@ code {
 }
 
 /* Scrollbar design end */
-
-/* Skills page starts */
-
-.skillsection {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.skilldiv-right {
-  width: 50%;
-}
-
-.techstack {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2.5rem;
-}
-
-.stack_icon {
-  color: white;
-}
-
-.skillHeading {
-  color: white;
-}
-
-/* Skills page ends */
